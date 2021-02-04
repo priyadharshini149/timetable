@@ -32,7 +32,7 @@ td
 
 tr:nth-child(odd)
 {
-    background-color: rgb(124, 67, 138);
+    background-color: rgb(153,93,145);
 }
 tr:nth-child(even)
 {
