@@ -1,0 +1,70 @@
+body
+{
+    background-image: url("bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+table
+{
+    margin:auto;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    border-collapse:collapse;
+    border: 5px solid black;
+}
+th
+{
+    text-shadow: 2px 2px rgb(209, 69, 209);
+   font-size: 25px;
+}
+td,th
+{
+    border: 3px solid black;
+    padding:8px;
+    text-align: center;
+    height:60px;
+}
+td
+{
+    font-size: 20px;
+    text-shadow: 2px 2px rgb(209, 69, 209);
+}
+
+tr:nth-child(odd)
+{
+    background-color: rgb(124, 67, 138);
+}
+tr:nth-child(even)
+{
+    background-color: rgb(182, 162, 187);
+}
+a
+{
+    color:black;
+    text-decoration: none;
+}
+a:hover
+{
+    color:white;
+    text-shadow: 2px 2px rgb(0, 0, 0);
+}
+td:hover 
+{
+background-color: rgb(87, 84, 84);
+
+color:white;
+}
+
+.timetable
+{
+padding:50px;
+
+
+}
+
+h1,h2
+{
+   
+    text-shadow: 1px 1px rgb(201, 184, 201);
+    font-size: 40px;
+}
