@@ -1,7 +1,9 @@
 body
 {
     
-    background-image:radial-gradient(rgb(196, 197, 218),rgb(29, 32, 29));
+    background-image:url("img\ 1.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .table1
 {
@@ -43,7 +45,7 @@ a:hover
 }
 td:hover 
 {
-background-color: rgb(87, 84, 84);
+background-color: rgb(117, 113, 113);
 
 color:white;
 }
@@ -89,5 +91,11 @@ h1,h2
                         position: absolute;
                         
                 }
+                body
+{
+    
+    background-image:url("img\ 1.webp");
+    
+}
    
 }
