@@ -61,7 +61,7 @@ h1,h2
     text-shadow: 1px 1px rgb(201, 184, 201);
     font-size: 40px;
 }
-@media only screen and (max-width: 600px)
+@media only screen and (max-width: 1200px)
   {
         
                 table, thead, tbody, th, td, tr { 
@@ -77,7 +77,7 @@ h1,h2
                 
                 tr { border-bottom: 1px solid rgb(255, 255, 255); }
                  
-                }
+                
 
 
                 td { 
