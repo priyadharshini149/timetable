@@ -1,8 +1,6 @@
 body
 {
-    background-image: url("bg1.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
+    
     background-image:radial-gradient(rgb(196, 197, 218),rgb(29, 32, 29));
 }
 .table1
@@ -11,13 +9,8 @@ body
     font-family:Georgia, 'Times New Roman', Times, serif;
     
     padding: 50px;
-    
-    
-   
-    
-    
+      
 }
-
 
 th
 {
@@ -67,4 +60,34 @@ h1,h2
    
     text-shadow: 1px 1px rgb(201, 184, 201);
     font-size: 40px;
+}
+@media only screen and (max-width: 600px)
+  {
+        
+                table, thead, tbody, th, td, tr { 
+                        display: block; 
+                }
+                
+                thead tr { 
+                        position: absolute;
+                        top: -9999px;
+                        left: -9999px;
+                       
+                }
+                
+                tr { border-bottom: 1px solid rgb(255, 255, 255); }
+                 
+                }
+
+
+                td { 
+                    
+                     position: relative;
+                     padding-left: 50%; 
+                }
+                td:before { 
+                        position: absolute;
+                        
+                }
+   
 }
