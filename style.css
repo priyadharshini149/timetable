@@ -3,15 +3,22 @@ body
     background-image: url("bg1.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-
+    background-image:radial-gradient(rgb(196, 197, 218),rgb(29, 32, 29));
 }
-table
+.table1
 {
     margin:auto;
     font-family:Georgia, 'Times New Roman', Times, serif;
-    border-collapse:collapse;
-    border: 5px solid black;
+    
+    padding: 50px;
+    
+    
+   
+    
+    
 }
+
+
 th
 {
    
@@ -19,24 +26,17 @@ th
 }
 td,th
 {
-    border: 3px solid black;
+   
+    
     padding:8px;
     text-align: center;
     height:60px;
 }
+
 td
 {
     font-size: 20px;
-   
-}
-
-tr:nth-child(odd)
-{
-    background-color: rgb(128,62,119);
-}
-tr:nth-child(even)
-{
-    background-color: rgb(182, 162, 187);
+    
 }
 a
 {
@@ -65,6 +65,6 @@ padding:50px;
 h1,h2
 {
    
-    
+    text-shadow: 1px 1px rgb(201, 184, 201);
     font-size: 40px;
 }
