@@ -35,7 +35,8 @@ td
     
 }
 thead{
-   background-color: rgb(11, 89, 92);
+   background-color: rgba(2, 44, 46, 0.589);
+   backdrop-filter: blur(15px);
     animation: mymove 5s infinite;
 }
 @keyframes mymove {
@@ -56,8 +57,8 @@ a:hover
 }
 td:hover 
 {
-background-color:rgb(23, 21, 24);
-
+background-color:rgba(0, 0, 0, 0.25);
+backdrop-filter: blur(15px);
 color:white;
 }
 
@@ -90,10 +91,11 @@ h1,h2
                        
                 }
                 
-                
-                
+              body{
+                background-image:url("img3.jpg");
+                background-size: cover;       
                  
-                
+              }
 
 
               
